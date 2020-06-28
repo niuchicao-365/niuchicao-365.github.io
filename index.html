@@ -152,20 +152,20 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-基于nodejs在win下搭建个人博客" class="article article-type-post  article-index" itemscope itemprop="blogPost">
+    <article id="post-基于nodejs在win下搭建个人博客 " class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
       <header class="article-header">
         
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/06/28/%E5%9F%BA%E4%BA%8Enodejs%E5%9C%A8win%E4%B8%8B%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">基于nodejs在win下搭建个人博客</a>
+      <a class="article-title" href="/2020/06/28/%E5%9F%BA%E4%BA%8Enodejs%E5%9C%A8win%E4%B8%8B%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%20/">基于nodejs在win下搭建个人博客 </a>
     </h1>
   
 
         
-        <a href="/2020/06/28/%E5%9F%BA%E4%BA%8Enodejs%E5%9C%A8win%E4%B8%8B%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
-  	<time datetime="2020-06-28T07:46:39.153Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-06-28</time>
+        <a href="/2020/06/28/%E5%9F%BA%E4%BA%8Enodejs%E5%9C%A8win%E4%B8%8B%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%20/" class="archive-article-date">
+  	<time datetime="2020-06-28T11:06:09.910Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-06-28</time>
 </a>
         
       </header>
@@ -177,7 +177,17 @@
 <hr>
 <h2 id="准备材料"><a href="#准备材料" class="headerlink" title="准备材料"></a>准备材料</h2><p><em>1、</em> nodejs 软件<br><em>2、</em> git，github账号</p>
 <h2 id="流程"><a href="#流程" class="headerlink" title="流程"></a>流程</h2><p><strong>1、</strong> 下载nodejs软件 网址是   <em>nodejs.org</em><br><img src="https://img-blog.csdnimg.cn/20200628152244698.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQxODg2NA==,size_16,color_FFFFFF,t_70#pic_center" alt="下载lts"><br>然后安装 一直next，next next 然后finsh<br>完成安装<br><strong>2、</strong> 下载git 软件并安装<br><img src="https://img-blog.csdnimg.cn/20200628153017394.png#pic_center" alt="选择并安装"><br>然后安装<br><img src="https://img-blog.csdnimg.cn/20200628153054470.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQxODg2NA==,size_16,color_FFFFFF,t_70#pic_center" alt="安装页面"><br>一直next    直到</p>
-<p><img src="https://img-blog.csdnimg.cn/20200628153151764.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQxODg2NA==,size_16,color_FFFFFF,t_70#pic_center" alt="点击install"><br>安装完成出现<br><img src="https://img-blog.csdnimg.cn/20200628153322982.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQxODg2NA==,size_16,color_FFFFFF,t_70#pic_center" alt="选择git bach"><br>打开并且配置身份和邮箱<br>git config –global user.name “你的github名”      //配置用户名<br>git config –global user.email “你的github绑定邮箱名”      //配置邮箱<br>git config –get  user.name     //查看当前github用户<br>git config –get user.email      //查看当前邮箱</p>
+<p><img src="https://img-blog.csdnimg.cn/20200628153151764.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQxODg2NA==,size_16,color_FFFFFF,t_70#pic_center" alt="点击install"><br>安装完成出现<br><img src="https://img-blog.csdnimg.cn/20200628153322982.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQxODg2NA==,size_16,color_FFFFFF,t_70#pic_center" alt="选择git bach"><br>打开并且配置身份和邮箱<br>git config –global user.name “你的github名”      //配置用户名<br>git config –global user.email “你的github绑定邮箱名”      //配置邮箱<br>git config user.name    //查看当前github用户<br>git config user.email    //查看当前邮箱<br>配置完成后 打开git bash 在这里进行操作</p>
+<p>要安装hexo可以借助npm包管理器，但是这样的话下载速度太慢，可以借助cnpm的淘宝镜像源来进行安装，所以先安装cnpm<br> <em>npm install -g cnpm –registry=<a href="https://registry.npm.taobao.org" target="_blank" rel="noopener">https://registry.npm.taobao.org</a></em><br><img src="https://img-blog.csdnimg.cn/20200628175328950.png#pic_center" alt="输入安装命令"><br> 安装完成后在命令行输入cnpm会自动弹出一些文件<br> 证明安装完成<br> cnpm -v   //查看cnpm的版本<br> 安装hexo博客<br> 命令：<em>cnpm  install  -g hexo-cli</em>    //安装hexo<br> 可以使用hexo -v 来验证     //查看hexo的版本</p>
+<p> 建一个名字为blog空的文件夹<br> <em>mkdir blog</em><br> 可以在git bash中使用  ls  查看 ，也可以在win10的文件夹中查看</p>
+<p>如果在建立博客过程中遇到无法解决的问题，可以删除 blog重新来过<br>删除命令 rm - rf blog</p>
+<p>cd blog  进入blog目录<br>初始化博客   hexo  init<br>这个过程可能需要几分钟<br>安装完成后会提示   INFO   start blogging with hexo<br>可以采用  ls -l查看目录下生成的文件，也可以在win10的文件夹里查看<br>启动博客  hexo s<br><img src="https://img-blog.csdnimg.cn/2020062818080697.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQxODg2NA==,size_16,color_FFFFFF,t_70#pic_center" alt="启动博客"><br>这时可以在浏览器中输入地址  <em>localhost:4000</em>   查看初步建成的博客框架<br><img src="https://img-blog.csdnimg.cn/20200628181104762.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQxODg2NA==,size_16,color_FFFFFF,t_70#pic_center" alt="博客界面"><br>在命令行界面输入 Ctrl+c 可以退出hexo<br>新建一篇文章<br>在命令行界面输入  hexo n “博客名称”<br><img src="https://img-blog.csdnimg.cn/20200628181445475.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQxODg2NA==,size_16,color_FFFFFF,t_70#pic_center" alt="建立博客"><br>可见新建的博客文件存储于 source_posts\ 目录下<br>进入_post目录找到新建的博客<br>采用  vi 进入博客 进行书写<br>vi 博客名<br>在写完时 在英文输入法下按 esc  然后 shift + ：输入wq 回车保存成功<br>在回到 bolg目录后<br>hexo clean 清理  接着 hexo g 生成<br>可以再次运行 hexo s 然后 <em>localhost:4000</em>   查看写的博客<br><img src="https://img-blog.csdnimg.cn/20200628181755288.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQxODg2NA==,size_16,color_FFFFFF,t_70#pic_center" alt="建立完成我的第一篇文章"></p>
+<h2 id="接下来把博客部署到github上，以后可以采用github地址来访问"><a href="#接下来把博客部署到github上，以后可以采用github地址来访问" class="headerlink" title="接下来把博客部署到github上，以后可以采用github地址来访问"></a>接下来把博客部署到github上，以后可以采用github地址来访问</h2><p>进入github 新建一个库<br><img src="https://img-blog.csdnimg.cn/20200628182657956.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQxODg2NA==,size_16,color_FFFFFF,t_70#pic_center" alt="新建库"><br>库的命名必须是      你的github名字.github.io<br>这个就是以后通过github访问你的博客的地址</p>
+<p>然后点击 create repository</p>
+<p>再回到 gitbash中安装一个插件<br>回到 blog目录<br>输入 cnpm install –save   hexo–deployer-git<br>安装完成后会显示<br><img src="https://img-blog.csdnimg.cn/2020062818324787.png#pic_center" alt="安装完成标志"><br>在blog目录下 设置_config.yml<br><img src="https://img-blog.csdnimg.cn/20200628183511537.png#pic_center" alt="设置_config.yml"><br>采用 vi _config.yml<br>进入采用方向键回到结尾<br><img src="https://img-blog.csdnimg.cn/20200628184618387.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80MjQxODg2NA==,size_16,color_FFFFFF,t_70#pic_center" alt="加入的程序"><br>type ：  两个空格 ‘git’<br>repo：  两个空格 你的新建库的地址  如：<a href="https://github.com/新建库的地址" target="_blank" rel="noopener">https://github.com/新建库的地址</a><br>后缀是  .git<br>然后结束保存 方法如上<br> 在blog目录下 hexo clean<br>                        hexo g<br>                        hexo d<br> 此时会出现一个窗口让你输入github用户名 和密码 输入即可，若出现失败，很有可能是密码输入错误，建议多试几次，或者更改新的密码</p>
+<p>成功后就可以输入库的地址来进行查看 可以看到新生成了几个目录</p>
+<h2 id="更改主题"><a href="#更改主题" class="headerlink" title="更改主题"></a>更改主题</h2><p>在blog目录下<br>git clone  <a href="https://github.com/litten/hexo-theme-yilia.git" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia.git</a> themes/yilia</p>
+<p><a href="https://github.com/litten/hexo-theme-yilia.git是主题地址" target="_blank" rel="noopener">https://github.com/litten/hexo-theme-yilia.git是主题地址</a><br>themes/yilia 是克隆到的地址<br>克隆完成后<br>在blog目录下进入 _config.yml 中 找到<br><img src="https://img-blog.csdnimg.cn/20200628190319397.png#pic_center" alt="更改主题"><br>改成如图   保存退出即可<br>然后三件套再走一下<br>  在blog目录下 hexo clean<br>                        hexo g<br>                        hexo d<br>    在浏览器中输入库的地址即可查看更改后的主题<br>   主题优化和更改一些细节留给小伙伴了，加油哦！</p>
 
       
 
@@ -190,72 +200,7 @@
 
       
         <p class="article-more-link">
-          <a class="article-more-a" href="/2020/06/28/%E5%9F%BA%E4%BA%8Enodejs%E5%9C%A8win%E4%B8%8B%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-记录搭建个人博客和踩的坑" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/06/28/%E8%AE%B0%E5%BD%95%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%92%8C%E8%B8%A9%E7%9A%84%E5%9D%91/">记录搭建个人博客和踩的坑</a>
-    </h1>
-  
-
-        
-        <a href="/2020/06/28/%E8%AE%B0%E5%BD%95%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%92%8C%E8%B8%A9%E7%9A%84%E5%9D%91/" class="archive-article-date">
-  	<time datetime="2020-06-28T03:36:58.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-06-28</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>#搭建顺序<br>##准备<br><em>1、</em> github账号和密码<br><em>2、</em> nodejs软件<br><em>3、</em> git软件</p>
-<hr>
-<p>##流程<br><strong>1、</strong>安装node.js软件 网址是<em>nodejs.org</em><br><img src="public/img/1.png" alt="下载箭头所指的"></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/06/28/%E8%AE%B0%E5%BD%95%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E5%92%8C%E8%B8%A9%E7%9A%84%E5%9D%91/">展开全文 >></a>
+          <a class="article-more-a" href="/2020/06/28/%E5%9F%BA%E4%BA%8Enodejs%E5%9C%A8win%E4%B8%8B%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%20/">展开全文 >></a>
         </p>
       
 
